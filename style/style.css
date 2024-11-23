@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0 12px 0;
+}
+
+.dark_mode {
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.search {
+    width: 208px;
+    height: 32px;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    gap: 16px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.block_one {
+    margin-top: 32px;
+    width: 616px;
+    padding-bottom: 40px;
+    padding-top: 16px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-left: 25px;
+    border: 1px solid #DBDBDB;
+    height: 120px;
+}
+
+.user_one {
+    background: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.avatar_users {
+    margin-bottom: 8px;
+    width: 65px;
+    height: 65px;
+    background: #DBDBDB;
+    border-radius: 50%;
+}
+
+
+.my_profile {
+    background: 0;
+    border: 0;
+    cursor: pointer;
+    padding-left: 24px;
+    padding-top: 48px;
+}
+
+.avatar_my {
+    margin-bottom: 8px;
+    width: 65px;
+    height: 65px;
+    background: url("https://www.livemint.com/lm-img/img/2024/11/09/600x338/FILES-US-ENTERTAINMENT-CRIME-SEX-DIDDY-0_1731116874164_1731116974674.jpg") no-repeat center/cover;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.suggestions {
+    background: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.profile_ava {
+    background: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.avatar_profile {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #E5E5E5;
+    align-self: center;
+    background: url("https://www.livemint.com/lm-img/img/2024/11/09/600x338/FILES-US-ENTERTAINMENT-CRIME-SEX-DIDDY-0_1731116874164_1731116974674.jpg") no-repeat center/cover;
+
+
+}
+
+.avatar_suggestions {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #E5E5E5;
+}
+
+.rekmd_users_info {
+    padding-bottom: 5px;
+    padding-left: 6px;
+    align-items: center;
+}
+
+.rekmd_users_info p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8E8E8E;
+}
+
+.rekmd_users {
+    padding-top: 16px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.follow {
+    padding-left: 332px;
+    align-self: center;
+    text-decoration: none;
+    color: blue;
+
+}
+
+
+
+.my {
+    display: flex;
+}
+
+.my_info {
+    padding-top: 62px;
+    padding-left: 16px;
+}
+
+
+.switch {
+    text-decoration: none;
+    color: blue;
+    display: flex;
+    padding-left: 380px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.my_info p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #262626;
+}
+
+.my_info h5 {
+    padding-top: 5px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8E8E8E;
+}
+
+.all {
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 375px;
+    padding-left: 24px;
+    
+}
+
+
+.all h3 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8E8E8E;
+
+}
+
+.all h4 {
+    cursor: pointer;
+    color: #262626;
+}
+
+.all h4:hover {
+    color: gray;
+}
+
+
+.post-container {
+    width: 616px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: -300px;
+
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.post_two {
+    margin-top: 24px;
+    width: 616px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.save {
+    width: 21px;
+    height: 24px;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #ddd;
+}
+
+.post-header .user-info {
+    font-size: 14px;
+}
+
+.post-header .user-info .nickname {
+    font-weight: bold;
+}
+
+.post-header .user-info .location {
+    color: #888;
+    font-size: 12px;
+}
+
+.post-image {
+    width: 100%;
+    height: 400px;
+    background-color: #eee;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.icons {
+    padding-bottom: 12px;
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+    
+}
+
+.post-actions .icons {
+    display: flex;
+    gap: 10px;
+}
+
+.post-actions .icons svg {
+    width: 20px;
+    height: 20px;
+    fill: #333;
+}
+
+.post-likes {
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.post-caption {
+    padding: 0 10px;
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 8px;
+}
+
+.post-caption .nickname {
+    font-weight: bold;
+}
+
+.comments {
+    margin-bottom: 8px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #888;
+}
+
+.comment-input {
+    border-top: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.comment-input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.comment-input button {
+    border: none;
+    background: none;
+    color: #0095f6;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* 1200, 992, 768, 576, 360 */
+@media (max-width: 1200px) {
+
+    .container {
+        width: 900px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .home {
+        display: none;
+    }
+
+    .dark_mode {
+        display: none;
+    }
+
+    .like {
+        display: none;
+    }
+
+    .block_one {
+        margin-top: 32px;
+        width: 530px;
+        padding-bottom: 40px;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        width: 700px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 500px;
+    }
+
+    .block_one {
+        /* margin-top: 32px; */
+        width: 530px;
+        padding-bottom: 40px;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .block_one {
+        /* margin-top: 32px; */
+        width: 530px;
+        padding-bottom: 40px;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+}
